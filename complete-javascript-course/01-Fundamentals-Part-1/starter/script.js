@@ -102,3 +102,66 @@
 // }else{
 //     console.log('Someone else should drive');
 // }
+
+// const hasDriverLicense = true; //A
+// const hasGoodVision = true; //B
+// const isTired = true; //C
+
+// // console.log(hasDriverLicense && hasGoodVision);
+// // console.log(hasDriverLicense || hasGoodVision);
+
+// console.log(hasDriverLicense && hasGoodVision && isTired);
+
+// if(hasDriverLicense && hasGoodVision && !isTired){
+//     console.log('Adam is able to drive')
+// }else{
+//     console.log('Someone else should drive');
+// }
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins);
+// console.log(scoreKoalas);
+// if (scoreDolphins > scoreKoalas) {
+//     console.log('Dolphins win the trophy');
+// } else if (scoreKoalas > scoreDolphins) {
+//     console.log('Koalas win the trophy');
+// } else if (scoreDolphins === scoreKoalas) {
+//     console.log('Both win the trophy');
+// }
+
+// const day = 'monday';
+
+// switch (day) {
+//     case 'monday':
+//         console.log('Plan course structure');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'tuesday':
+//         console.log('Prepare theory video');
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('write code');
+//         break;
+//     case 'friday':
+//         console.log('Record Video');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('enjoy weekends');
+//         break;
+//     default:
+//         console.log('Not a valid day');
+// }
+
+// const age = 23;
+// // age >= 18 ? console.log('I like to drink wine 🍷') :
+// //     console.log('I like to drink water 💦');
+
+// const drink = age >= 18 ? 'wine 🍷' : 'water 💦';
+// console.log(drink);
+
+// const bill = 275;
+// const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip} `);
