@@ -1,22 +1,7 @@
-// const firstName = 'Adam';
-// const lastName = 'Jonas';
-// console.log(firstName + ' ' + lastName);
+'use strict';
 
-const age = 15;
+let hasDriverLicense = false;
+const passTest = true;
 
-if (age >= 18) {
-    console.log('Adam can start driving license');
-}else{
-    const yearsLeft = 18 - age;
-    console.log(`Adam is too young. Wait another ${yearsLeft} years !`);
-}
-
-const birthYear = 2012;
-
-let century;
-if(birthYear <= 2000){
-    century = 20;
-}else{
-    century = 21;
-}
-console.log(century);
+if (passTest) hasDriverLicense = true;
+if(hasDriverLicense) console.log("I can drive");
